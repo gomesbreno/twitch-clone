@@ -12,11 +12,13 @@ import {
   WhiteCircle,
 } from "./styles";
 
+import avatar from "../../images/avatar.jpg";
+
 const ChannelList: React.FC = () => {
   const ChannelItem = () => (
     <ChannelContainer>
       <LeftSide>
-        <Avatar />
+        <Avatar source={avatar} />
         <Column>
           <Username>rocketseat_oficial</Username>
           <Info>36 new videos</Info>
@@ -31,6 +33,9 @@ const ChannelList: React.FC = () => {
 
   return (
     <List>
+      <ChannelItem />
+      <ChannelItem />
+      <ChannelItem />
       <ChannelItem />
       <ChannelItem />
       <ChannelItem />

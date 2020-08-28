@@ -56,6 +56,9 @@ const StreamList: React.FC = ({ children }) => {
       <StreamItem />
       <StreamItem />
       <StreamItem />
+      <StreamItem />
+      <StreamItem />
+      <StreamItem />
     </List>
   );
 };

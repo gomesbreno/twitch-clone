@@ -18,7 +18,7 @@ export const LeftSide = styled.View`
   align-items: center;
 `;
 
-export const Avatar = styled.View`
+export const Avatar = styled.Image`
   background: ${colors.tag};
   width: 48px;
   height: 48px;
